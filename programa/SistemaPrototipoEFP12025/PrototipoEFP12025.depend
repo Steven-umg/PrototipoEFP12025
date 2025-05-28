@@ -29,12 +29,26 @@
 1748448593 c:\users\steve\onedrive\documentos\prototipoefp12025\prototipoefp12025\programa\sistemaprototipoefp12025\include\usuario.h
 	<string>
 
-1748449739 source:c:\users\steve\onedrive\documentos\prototipoefp12025\prototipoefp12025\programa\sistemaprototipoefp12025\main.cpp
+1748451780 source:c:\users\steve\onedrive\documentos\prototipoefp12025\prototipoefp12025\programa\sistemaprototipoefp12025\main.cpp
 	<iostream>
 	"Login.h"
 	"usuario.h"
 	"bitacora.h"
 
 1748448587 c:\users\steve\onedrive\documentos\prototipoefp12025\prototipoefp12025\programa\sistemaprototipoefp12025\include\login.h
+	<string>
+
+1748449789 source:c:\users\steve\onedrive\documentos\prototipoefp12025\prototipoefp12025\programa\sistemaprototipoefp12025\src\login.cpp
+	"Login.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1748452695 source:c:\users\steve\onedrive\documentos\prototipoefp12025\prototipoefp12025\programa\sistemaprototipoefp12025\src\catalogos.cpp
+	"catalogos.h"
+
+1748452695 c:\users\steve\onedrive\documentos\prototipoefp12025\prototipoefp12025\programa\sistemaprototipoefp12025\include\catalogos.h
+	<iostream>
+	<vector>
 	<string>
 
