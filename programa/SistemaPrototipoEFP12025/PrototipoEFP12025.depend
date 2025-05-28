@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1748448590 source:c:\users\steve\onedrive\escritorio\proyectos programacion\prototipoefp12025\src\usuario.cpp
+	"Usuario.h"
+
+1748448593 c:\users\steve\onedrive\escritorio\proyectos programacion\prototipoefp12025\include\usuario.h
+	<string>
+
+1748449044 source:c:\users\steve\onedrive\escritorio\proyectos programacion\prototipoefp12025\src\bitacora.cpp
+	"bitacora.h"
+	<fstream>
+	<ctime>
+	<cstring>
+
+1748449082 c:\users\steve\onedrive\escritorio\proyectos programacion\prototipoefp12025\include\bitacora.h
+	<string>
+
+1748449044 source:c:\users\steve\onedrive\documentos\prototipoefp12025\prototipoefp12025\programa\sistemaprototipoefp12025\src\bitacora.cpp
+	"bitacora.h"
+	<fstream>
+	<ctime>
+	<cstring>
+
+1748449082 c:\users\steve\onedrive\documentos\prototipoefp12025\prototipoefp12025\programa\sistemaprototipoefp12025\include\bitacora.h
+	<string>
+
+1748448590 source:c:\users\steve\onedrive\documentos\prototipoefp12025\prototipoefp12025\programa\sistemaprototipoefp12025\src\usuario.cpp
+	"Usuario.h"
+
+1748448593 c:\users\steve\onedrive\documentos\prototipoefp12025\prototipoefp12025\programa\sistemaprototipoefp12025\include\usuario.h
+	<string>
+
+1748449739 source:c:\users\steve\onedrive\documentos\prototipoefp12025\prototipoefp12025\programa\sistemaprototipoefp12025\main.cpp
+	<iostream>
+	"Login.h"
+	"usuario.h"
+	"bitacora.h"
+
+1748448587 c:\users\steve\onedrive\documentos\prototipoefp12025\prototipoefp12025\programa\sistemaprototipoefp12025\include\login.h
+	<string>
+
