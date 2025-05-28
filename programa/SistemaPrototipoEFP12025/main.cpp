@@ -8,6 +8,9 @@ using namespace std;
 
 string usuarioActual; // Para guardar el nombre del usuario bitacora
 void mostrarMenuPrincipal();
+void MenuInformes();
+void MenuCatalogos();
+void MenuSeguridad();
 
 int main() {
     int opcion;
@@ -57,9 +60,44 @@ void mostrarMenuPrincipal() {
         cout << "\t\t\t|     MENU PRINCIPAL     | \n";
         cout << "\t\t\t|------------------------- \n" ;
         cout << "\t\t\t|1. Catalogos\n";
-        cout << "\t\t\t|2. Procesos\n";
-        cout << "\t\t\t|3. Salir del sistema\n";
+        cout << "\t\t\t|2. informes\n";
+        cout << "\t\t\t|3. seguridad\n";
+        cout << "\t\t\t|4. Salir del sistema\n";
         cout << "\t\t\t|Seleccione una opcion: ";
+        cin >> opcion;
+
+        switch (opcion) {
+            case 1:
+                MenuCatalogo();
+                break;
+            case 2:
+                MenuInformes();
+                break;
+            case 3:
+                break;
+            case 4:
+                registrarEvento(usuarioActual, "Salio del menu general 5002 ");
+                cout << "Cerrando sesion...\n";
+                break;
+            default:
+                cout << "Opcion no valida.\n";
+        }
+    } while (opcion != 4);
+}
+void MenuCatalogos() {
+    int opcion;
+    do {
+        system ("cls");
+        cout << "n\t\t\t|------------------------- \n" ;
+        cout << "\t\t\t|      MENU CATALOGOS    | \n";
+        cout << "\t\t\t|------------------------- \n" ;
+        cout << "\t\t\t|1. CLIENTES \n";
+        cout << "\t\t\t|2. VENDEDORES\n";
+        cout << "\t\t\t|3. PRODUCTOS\n";
+        cout << "\t\t\t|4. VENTAS\n";
+        cout << "\t\t\t|5. FACTURACION\n";
+        cout << "\t\t\t|6. REGRESAR AL MENU PRINCIPAL\n";
+        cout << "\t\t\t| Seleccione una opcion: ";
         cin >> opcion;
 
         switch (opcion) {
@@ -68,12 +106,77 @@ void mostrarMenuPrincipal() {
             case 2:
                 break;
             case 3:
-                registrarEvento(usuarioActual, "Salio del menu general 5002 ");
-                cout << "Cerrando sesion...\n";
+            case 4:
+                break;
+            case 5:
+                break;
+            case 6:
+                registrarEvento(usuarioActual, "Salio del menu de catalogos 5002 ");
                 break;
             default:
                 cout << "Opcion no valida.\n";
         }
-    } while (opcion != 3);
+    } while (opcion != 6);
 }
+
+void MenuInformes() {
+    int opcion;
+    do {
+        system ("cls");
+        cout << "n\t\t\t|------------------------- \n" ;
+        cout << "\t\t\t|      MENU INFORMES      | \n";
+        cout << "\t\t\t|--------------------------\n" ;
+        cout << "\t\t\t|1. REGISTRO CLIENTES \n";
+        cout << "\t\t\t|2. REGISTRO VENDEDORES\n";
+        cout << "\t\t\t|3. REGISTRO PRODUCTOS\n";
+        cout << "\t\t\t|4. REGRESAR AL MENU PRINCIPAL\n";
+        cout << "\t\t\t| Seleccione una opcion: ";
+        cin >> opcion;
+
+        switch (opcion) {
+            case 1:
+                break;
+           case 2:
+    break;
+            case 3:
+                break;
+            case 4:
+                registrarEvento(usuarioActual, "Salio del menu de procesos 5002 ");
+                break;
+            default:
+                cout << "Opcion no valida.\n";
+        }
+    } while (opcion != 4);
+}
+
+void MenuSeguridad() {
+    int opcion;
+    do {
+        system ("cls");
+        cout << "n\t\t\t|-------------------------- \n" ;
+        cout << "\t\t\t|      MENU SEGURIDAD      | \n";
+        cout << "\t\t\t|--------------------------\n" ;
+        cout << "\t\t\t|1. REGISTRO CLIENTES \n";
+        cout << "\t\t\t|2. REGISTRO VENDEDORES\n";
+        cout << "\t\t\t|3. REGISTRO PRODUCTOS\n";
+        cout << "\t\t\t|4. REGRESAR AL MENU PRINCIPAL\n";
+        cout << "\t\t\t| Seleccione una opcion: ";
+        cin >> opcion;
+
+        switch (opcion) {
+            case 1:
+                break;
+           case 2:
+    break;
+            case 3:
+                break;
+            case 4:
+                registrarEvento(usuarioActual, "Salio del menu de procesos 5002 ");
+                break;
+            default:
+                cout << "Opcion no valida.\n";
+        }
+    } while (opcion != 4);
+}
+
 
